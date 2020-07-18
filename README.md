@@ -1,6 +1,21 @@
 # Extended Slider 2
 
-'Extended Slider 2' is a native javascript slider with count and dotted switches.
+'Extended Slider 2' is a native javascript slider module with count and dotted switches.
+
+Example of usage:
+
+```javascript
+slider({
+    container: '.offer__slider',
+    slide: '.offer__slide',
+    nextArrow: '.offer__slider-next',
+    prevArrow: '.offer__slider-prev',
+    totalCounter: '#total',
+    currentCounter: '#current',
+    wrapper: '.offer__slider-wrapper',
+    field: '.offer__slider-inner'
+    });
+```
 
 Example of html markup:
 
